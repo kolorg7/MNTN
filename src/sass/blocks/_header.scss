@@ -1,8 +1,9 @@
 .header {
-    margin: 64px auto 0 auto;
+    padding-top: 64px;
+    margin: 0 auto;
     max-width: 1760px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     &__logo {
         font-family: 'PlayfairDisplay';
         font-size: 32px;
@@ -10,30 +11,31 @@
         width: 108px;
         color: var(--text-color);
     }
-    &__menu {
+    &__navbar {
         font-family: 'Poppins';
-        font-weight: 700;
-        width: 238px;
+        font-size: 18px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         a {
             color: var(--text-color);
             &:hover {
                 text-decoration: none;
             }
+            &:nth-child(2) {
+                margin: 0 40px;
+            }
         }
     }
     &__account {
-        width: 98px;
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        cursor: pointer;
         &-text {
             font-family: 'Poppins';
             font-size: 17px;
             line-height: 21px;
             color: var(--text-color);
+            margin-left: 8px;
         }
     }
 }

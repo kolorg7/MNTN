@@ -1,0 +1,35 @@
+.slider {
+    position: fixed;
+    z-index: 1000;
+    right: 80px;
+    top: 326px;
+    width: 77px;
+    display: flex;
+    &__content {
+        width: 42px;
+    }
+    &__text {
+        font-family: 'Poppins';
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--text-color);
+    }
+    &__num {
+        font-family: "Poppins";
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--text-color);
+        text-align: right;
+        margin-top: 40px;
+    }
+    &__scroll {
+        width: 3px;
+        height: 240px;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 32px;
+        &-now {
+            height: 60px;
+            background-color: rgba(255, 255, 255, 1);
+        }
+    }
+}

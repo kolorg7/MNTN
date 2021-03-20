@@ -1,0 +1,35 @@
+.promo {
+    position: relative;
+    &__bg {
+        width: 100%;
+        position: absolute;
+        &_hg {
+            z-index: -5;
+        }
+        &_mg {
+            z-index: -4;
+            margin-top: 464px;
+        }
+        &_vg {
+            z-index: -3;
+            margin-top: 768px;
+        }
+        &_hero {
+            z-index: -2;
+        }
+        &_content {
+            margin-top: 1200px;
+            z-index: -1;
+        }
+    }
+    &__wrapper {
+        width: 950px;
+        height: 310px;
+        margin: 191px auto 0 auto;
+    }
+    .direction {
+        a {
+            color: var(--text-color);
+        }
+    }
+}

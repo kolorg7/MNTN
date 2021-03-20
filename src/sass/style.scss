@@ -12,4 +12,28 @@
 :root {
     --text-color: #ffffff;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+.direction {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 32px;
+    font-weight: 600;
+    a {
+        margin-right: 16px;
+        color: #FBD784;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
 @import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/text';
+@import 'blocks/sidepanel';
+@import 'blocks/slider';
