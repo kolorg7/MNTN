@@ -1,0 +1,39 @@
+.header {
+    margin: 64px auto 0 auto;
+    max-width: 1760px;
+    display: flex;
+    justify-content: space-around;
+    &__logo {
+        font-family: 'PlayfairDisplay';
+        font-size: 32px;
+        line-height: 38px;
+        width: 108px;
+        color: var(--text-color);
+    }
+    &__menu {
+        font-family: 'Poppins';
+        font-weight: 700;
+        width: 238px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            color: var(--text-color);
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    &__account {
+        width: 98px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &-text {
+            font-family: 'Poppins';
+            font-size: 17px;
+            line-height: 21px;
+            color: var(--text-color);
+        }
+    }
+}
