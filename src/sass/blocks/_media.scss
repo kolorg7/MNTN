@@ -1,0 +1,159 @@
+@media screen and (max-width: 1439px) {
+    .sidepanel {
+        display: none;
+    }
+    .slider {
+        display: none;
+    }
+    .promo {
+        &__bg {
+            &_content {
+                margin-top: 1100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .promo {
+        &__wrapper {
+            padding: 0 80px;
+            width: 100%;
+        }
+        &__bg {
+            &_content {
+                margin-top: 1000px;
+            }
+            &_mg {
+                margin-top: 430px;
+            }
+        }
+    }
+    .head {
+        &_fz88 {
+            font-size: 77px;
+        }
+    }
+    .title {
+        h1 {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .promo {
+        &__bg {
+            &_content {
+                margin-top: 800px;
+            }
+            &_mg {
+                margin-top: 340px;
+            }
+            &_vg {
+                margin-top: 620px;
+            }
+        }
+    }
+    .head {
+        &_fz88 {
+            font-size: 56px;
+        }
+    }
+    .direction {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 40px 30px 0 30px;
+        &__navbar {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            padding: 0 30px;
+            margin: 60px 0 0 0;
+        }
+        &__bg {
+            &_content {
+                margin-top: 600px;
+            }
+            &_mg {
+                margin-top: 255px;
+            }
+            &_vg {
+                margin-top: 465px;
+            }
+        }
+    }
+
+    .title {
+        h1 {
+            font-size: 14px;
+        }
+        .divider {
+            width: 50px;
+        }
+    }
+    .head {
+        line-height: 70px;
+        &_fz88 {
+            font-size: 49px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 40px 20px 0 20px;
+        &__navbar {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            padding: 0 20px;
+            margin: 60px 0 0 0;
+            width: 100%;
+        }
+        &__bg {
+            &_content {
+                margin-top: 330px;
+            }
+            &_mg {
+                margin-top: 140px;
+            }
+            &_vg {
+                margin-top: 255px;
+            }
+        }
+    }
+
+    .title {
+        h1 {
+            font-size: 12px;
+        }
+        .divider {
+            width: 40px;
+        }
+    }
+    .head {
+        line-height: 60px;
+        &_fz88 {
+            font-size: 47px;
+        }
+    }
+    .direction {
+        font-size: 12px;
+        a {
+            margin-right: 10px;
+        }
+        img {
+            height: 20px;
+        }
+    }
+}
+
