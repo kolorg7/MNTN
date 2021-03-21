@@ -66,10 +66,10 @@
         }
         &__num {
             left: 25px;
-            top: 755px;
+            top: 825px;
         }
         &__photo {
-            max-width: 700px;
+            width: 626px;
             margin: 0 auto;
             order: -1;
         }
@@ -114,12 +114,15 @@
     }
     .content {
         &__wrapper {
-            padding:  141px 30px 100px 30px;
+            padding:  100px 30px;
         }
         :nth-child(2) {
             .content {
                 &__wrapper {
-                    padding: 141px 30px 100px 30px;
+                    padding: 100px 30px;
+                }
+                &__num {
+                    left: -25px;
                 }
             }
         }
@@ -128,7 +131,14 @@
             font-size: 17px;
         }
         &__num {
-            left: -7px;
+            left: -25px;
+            top: 830px;
+        }
+        &__photo {
+            width: 660px;
+        }
+        &__item {
+            padding-bottom: 150px;
         }
     }
     .footer {
@@ -184,29 +194,35 @@
         }
     }
     .head {
-        line-height: 70px;
+        line-height: 60px;
         &_fz88 {
             font-size: 49px;
+        }
+        &_fz64 {
+            margin-top: 10px;
         }
     }
     .content {
         margin-top: 300px;
         &__wrapper {
-            padding:  100px 30px
+            padding:  50px 30px
         }
         :nth-child(2) {
             .content {
                 &__wrapper {
-                    padding: 100px 30px;
+                    padding: 50px 30px;
                 }
                 &__num {
-                    left: -81px;
+                    left: -70px;
                 }
             }
         }
         &__num {
-            left: -81px;
-            top: 685px;
+            left: -70px;
+            top: 560px;
+        }
+        &__photo {
+            width: 480px;
         }
     }
     .footer {
@@ -268,13 +284,13 @@
         }
     }
     .head {
-        line-height: 60px;
+        line-height: 40px;
         &_fz88 {
             font-size: 47px;
         }
         &_fz64 {
             font-size: 32px;
-            margin-top: 5px;
+            margin-top: 15px;
         }
     }
     .direction {
@@ -287,14 +303,13 @@
         }
     }
     .content {
+        margin-top: 100px;
         &__descr {
-            font-size: 15px;
+            font-size: 14px;
+            margin-top: 15px;
         }
         &__item {
-            padding-bottom: 150px;
-        }
-        &__wrapper {
-            padding: 40px 30px;
+            padding-bottom: 80px;
         }
         :nth-child(2) {
             .content {
@@ -302,17 +317,21 @@
                     padding: 40px 30px;
                 }
                 &__num {
-                    top: 450px;
+                    top: 350px;
                 }
             }
         }
         &__num {
-            top: 405px;
+            top: 315px;
+            font-size: 180px;
+        }
+        &__photo {
+            width: 244px;
         }
     }
     .footer {
         &__wrapper {
-            grid-template-columns: 303px;
+            grid-template-columns: 360px;
             row-gap: 50px;
         }
         &__right {
