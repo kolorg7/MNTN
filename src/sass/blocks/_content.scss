@@ -11,6 +11,7 @@
                 }
                 &__num{
                     left: 680px;
+                    z-index: -10;
                 }
                 &__wrapper {
                     padding: 141px 0 140px 264px;
@@ -19,7 +20,10 @@
         }
     }
     &__num {
+        width: 240px;
+        height: 240px;
         position: absolute;
+        z-index: -10;
         left: -7px;
         top: 38px;
         font-family: 'Poppins';
@@ -31,7 +35,7 @@
     }
     &__wrapper {
         display: inline-block;
-        width: 896px;
+        max-width: 896px;
         padding: 141px 114px 140px 150px;
     }
     &__descr {
@@ -44,5 +48,10 @@
     }
     .direction {
         margin-top: 27px;
+    }
+    &__photo {
+        img {
+            width: 100%;
+        }
     }
 }

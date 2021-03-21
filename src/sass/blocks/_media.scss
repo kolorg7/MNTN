@@ -12,9 +12,15 @@
             }
         }
     }
+    .container {
+        max-width: 1200px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
     .promo {
         &__wrapper {
             padding: 0 80px;
@@ -39,9 +45,49 @@
             font-size: 16px;
         }
     }
+    .content {
+        &__wrapper {
+            margin: 0 auto;
+            padding: 141px 120px 100px 150px;
+        }
+        &__item {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        :nth-child(2) {
+            .content {
+                &__wrapper {
+                    padding: 141px 120px 100px 150px;
+                }
+                &__num{
+                    left: 25px;
+                }
+            }
+        }
+        &__num {
+            left: 25px;
+            top: 755px;
+        }
+        &__photo {
+            max-width: 700px;
+            margin: 0 auto;
+            order: -1;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 347px 415px;
+        }
+        &__right {
+            column-gap: 70px;
+        }
+    }
 }
 
 @media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
     .promo {
         &__bg {
             &_content {
@@ -59,13 +105,52 @@
         &_fz88 {
             font-size: 56px;
         }
+        &_fz64 {
+            font-size: 53px;
+        }
     }
     .direction {
         font-size: 16px;
     }
+    .content {
+        &__wrapper {
+            padding:  141px 30px 100px 30px;
+        }
+        :nth-child(2) {
+            .content {
+                &__wrapper {
+                    padding: 141px 30px 100px 30px;
+                }
+            }
+        }
+        margin-top: 500px;
+        &__descr {
+            font-size: 17px;
+        }
+        &__num {
+            left: -7px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 347px 193px;
+        }
+        &__right {
+            grid-template-columns: 193px;
+            
+        }
+        &__more {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
     .header {
         padding: 40px 30px 0 30px;
         &__navbar {
@@ -104,9 +189,51 @@
             font-size: 49px;
         }
     }
+    .content {
+        margin-top: 300px;
+        &__wrapper {
+            padding:  100px 30px
+        }
+        :nth-child(2) {
+            .content {
+                &__wrapper {
+                    padding: 100px 30px;
+                }
+                &__num {
+                    left: -81px;
+                }
+            }
+        }
+        &__num {
+            left: -81px;
+            top: 685px;
+        }
+    }
+    .footer {
+        padding-bottom: 20px;
+        &__wrapper {
+            grid-template-columns: 540px;
+            row-gap: 100px;
+        }
+        &__right {
+            grid-template-columns: 193px 161px;
+            grid-row: 1;
+            justify-content: center;
+        }
+        &__more {
+            text-align: center;
+            &:nth-child(2) {
+                display: grid;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 8px;
+    }
     .header {
         padding: 40px 20px 0 20px;
         &__navbar {
@@ -145,6 +272,10 @@
         &_fz88 {
             font-size: 47px;
         }
+        &_fz64 {
+            font-size: 32px;
+            margin-top: 5px;
+        }
     }
     .direction {
         font-size: 12px;
@@ -153,6 +284,60 @@
         }
         img {
             height: 20px;
+        }
+    }
+    .content {
+        &__descr {
+            font-size: 15px;
+        }
+        &__item {
+            padding-bottom: 150px;
+        }
+        &__wrapper {
+            padding: 40px 30px;
+        }
+        :nth-child(2) {
+            .content {
+                &__wrapper {
+                    padding: 40px 30px;
+                }
+                &__num {
+                    top: 450px;
+                }
+            }
+        }
+        &__num {
+            top: 405px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 303px;
+            row-gap: 50px;
+        }
+        &__right {
+            grid-template-columns: 303px;
+        }
+        &__more {
+            row-gap: 10px;
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+        &__left {
+            row-gap: 5px;
+        }
+        &__header {
+            font-size: 18px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__crgt {
+            font-size: 14px;
         }
     }
 }
