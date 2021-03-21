@@ -1,0 +1,15 @@
+.head {
+    font-family: 'PlayfairDisplay';
+    color: var(--text-color);
+    font-weight: 600;
+    &_fz88 {
+        font-size: 88px;
+        line-height: 100px;
+        margin-top: 32px;
+    }
+    &_fz64 {
+        font-size: 64px;
+        line-height: 77px;
+        margin-top: 27px;
+    }
+}

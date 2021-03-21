@@ -17,6 +17,29 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+body {
+    background: #0B1D26;;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    color: #FBD784;
+    .divider {
+        width: 72px;
+        height: 2px;
+        background: #FBD784;
+    }
+    h1 {
+        font-family: 'Poppins';
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        margin: 0 0 0 32px;
+    }
+}
+
 .direction {
     font-family: 'Poppins';
     font-size: 18px;
@@ -31,9 +54,16 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+
+.container {
+    width: 1462px;
+    margin: 0 auto;
+}
+
 @import 'blocks/header';
 @import 'blocks/promo';
-@import 'blocks/title';
-@import 'blocks/text';
+@import 'blocks/head';
 @import 'blocks/sidepanel';
 @import 'blocks/slider';
+@import 'blocks/content';
+@import 'blocks/footer';
