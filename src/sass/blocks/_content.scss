@@ -11,7 +11,6 @@
                 }
                 &__num{
                     left: 680px;
-                    z-index: -1;
                 }
                 &__wrapper {
                     padding: 141px 0 140px 264px;
@@ -21,7 +20,6 @@
     }
     &__num {
         position: absolute;
-        z-index: -1;
         left: -7px;
         top: 38px;
         font-family: 'Poppins';
