@@ -46,15 +46,16 @@
         font-weight: 500;
         font-size: 21px;
         line-height: 32px;
-        color: #FBD784;
+        color: var(--main-color);
     }
     &__link {
         font-family: 'Poppins';
         font-size: 15px;
         line-height: 32px;
         color: var(--text-color);
+        transition: all 0.2s;
         &:hover {
-            color: var(--text-color);
+            color: var(--main-color);
             text-decoration: none;
         }
     }

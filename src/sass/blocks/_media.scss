@@ -127,6 +127,11 @@
         &__right {
             column-gap: 70px;
         }
+        &__link {
+            &:hover {
+                color: var(--text-color);
+            }
+        }
     }
 }
 
