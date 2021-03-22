@@ -80,7 +80,7 @@
     .content {
         &__wrapper {
             margin: 0 auto;
-            padding: 141px 120px 100px 150px;
+            padding: 130px 20px 100px 20px;
         }
         &__item {
             flex-direction: column;
@@ -88,17 +88,21 @@
             &:nth-child(2) {
                 .content {
                     &__wrapper {
-                        padding: 141px 120px 100px 150px;
+                        padding: 130px 20px 100px 20px;
                     }
                     &__num{
-                        left: 25px;
+                        left: 0;
                     }
                 }
             }
         }
+        &__photo {
+            padding-top: 0;
+        }
         &__num {
-            left: 25px;
+            left: 0;
             top: 825px;
+            font-size: 240px;
         }
         &__photo {
             width: 626px;
@@ -367,7 +371,7 @@
     }
     .footer {
         &__wrapper {
-            grid-template-columns: 360px;
+            grid-template-columns: 303px;
             row-gap: 50px;
         }
         &__right {
