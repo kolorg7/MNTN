@@ -1,5 +1,6 @@
 .promo {
     height: 1900px;
+    z-index: -1;
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     &__wrapper {
         width: 950px;
