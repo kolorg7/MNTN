@@ -8,7 +8,9 @@
         margin: 191px auto 0 auto;
     }
     .direction {
-        a {
+        &__text {
+            margin-right: 16px;
+            display: inline-block;
             color: var(--text-color);
         }
     }

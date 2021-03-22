@@ -5,6 +5,10 @@
     .slider {
         display: none;
     }
+    .pageup {
+        right: 20px;
+        bottom: 20px;
+    }
 }
 
 
@@ -214,6 +218,7 @@
         &__wrapper {
             padding: 0 30px;
             margin: 60px 0 0 0;
+            
         }
         background: url('../img/main_bg.jpg') no-repeat 30%/cover;
     }
@@ -229,7 +234,8 @@
     .head {
         line-height: 60px;
         &_fz88 {
-            font-size: 49px;
+            font-size: 55px;
+            margin-top: 15px;
         }
         &_fz64 {
             margin-top: 10px;

@@ -1,0 +1,22 @@
+.direction {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 32px;
+    font-weight: 600;
+    a {
+        margin-right: 16px;
+        color: var(--main-color);
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &__down {
+        width: 16px;
+        height: 24px;
+    }
+    &__right {
+        height: 16px;
+        width: 24px;
+    }
+}
