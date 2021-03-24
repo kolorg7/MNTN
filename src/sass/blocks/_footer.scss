@@ -19,8 +19,16 @@
     }
     &__more {
         display: grid;
-        grid-template-rows: repeat(6, 32px);
+        grid-template-rows: 32px;
         row-gap: 24px;
+        ul {
+            display: grid;
+            grid-template-rows: repeat(5, 32px);
+            row-gap: 24px;
+            li{
+                list-style-type: none;
+            }
+        }
     }
     &__logo {
         font-family: 'PlayfairDisplay';
