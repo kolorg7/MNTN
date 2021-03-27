@@ -10,21 +10,26 @@
         color: var(--text-color);
         cursor: pointer;
     }
-    &__navbar {
+    &__menu {
         font-family: 'Poppins';
         font-size: 18px;
         display: flex;
         align-items: center;
-        a {
-            color: var(--text-color);
+        li {
+            list-style-type: none;
             transition: all 0.1s;
-            &:hover {
-                text-decoration: none;
-                color: var(--main-color);
-                padding-bottom: 5px;
-            }
             &:nth-child(2) {
                 margin: 0 40px;
+            }
+            &:hover {
+                padding-bottom: 5px;
+            }
+            a {
+                color: var(--text-color);
+                &:hover {
+                    text-decoration: none;
+                    color: var(--main-color);
+                }
             }
         }
     }
