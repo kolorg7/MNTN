@@ -11,8 +11,6 @@
         cursor: pointer;
     }
     &__menu {
-        font-family: 'Poppins';
-        font-size: 18px;
         display: flex;
         align-items: center;
         li {
@@ -25,6 +23,8 @@
                 padding-bottom: 5px;
             }
             a {
+                font-family: 'Poppins';
+                font-size: 18px;
                 color: var(--text-color);
                 &:hover {
                     text-decoration: none;

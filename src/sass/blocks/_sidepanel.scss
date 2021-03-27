@@ -4,22 +4,21 @@
     left: 80px;
     top: 359px;
     width: 24px;
-    height: 173px;
+    height: 155px;
     &__text {
-        width: 22;
-        height: 77px;
-        span {
-            transform: rotate(90deg) translate(39%, 105%);
-            display: block;
-            font-weight: 500;
-            width: 77px;
-            font-size: 18px;
-            line-height: 22px;
-            color: var(--text-color);
-        }
+        transform: rotate(90deg) translate(39%, 172%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--text-color);
+        width: 100px;
     }
-    &__link {
-        display: block;
-        margin-top: 24px;
+    &__links {
+        position: absolute;
+        bottom: 0;
     }
 }
