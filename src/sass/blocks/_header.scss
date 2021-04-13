@@ -5,7 +5,6 @@
     &__logo {
         font-family: 'PlayfairDisplay';
         font-size: 32px;
-        line-height: 38px;
         width: 108px;
         color: var(--text-color);
         cursor: pointer;
@@ -13,6 +12,7 @@
     &__menu {
         display: flex;
         align-items: center;
+        height: 50px;
         li {
             list-style-type: none;
             transition: all 0.1s;
@@ -20,9 +20,11 @@
                 margin: 0 40px;
             }
             &:hover {
-                padding-bottom: 5px;
+                margin-bottom: 5px;
             }
             a {
+                display: inline-block;
+                line-height: 38px;
                 font-family: 'Poppins';
                 font-size: 18px;
                 color: var(--text-color);
