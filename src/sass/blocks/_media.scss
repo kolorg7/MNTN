@@ -24,9 +24,6 @@
             max-width: 690px;
             padding: 141px 114px 140px 0;
         }
-        &__photo {
-            padding-top: 141px;
-        }
         &__num {
             font-size: 180px;
             left: -55px;
@@ -95,7 +92,6 @@
         }
     }
     .content {
-        margin-top: -50px;
         &__wrapper {
             margin: 0 auto;
             padding: 130px 20px 100px 20px;
@@ -333,7 +329,6 @@
         }
     }
     .content {
-        margin-top: -100px;
         &__descr {
             font-size: 14px;
             margin-top: 15px;
@@ -362,6 +357,7 @@
     .footer {
         &__wrapper {
             grid-template-columns: 303px;
+            justify-content: center;
             row-gap: 50px;
         }
         &__right {
@@ -375,6 +371,7 @@
         }
         &__left {
             row-gap: 5px;
+            text-align: center;
         }
         &__header {
             font-size: 18px;
