@@ -355,6 +355,7 @@
         }
     }
     .footer {
+        padding-bottom: 50px;
         &__wrapper {
             grid-template-columns: 303px;
             justify-content: center;
@@ -376,15 +377,16 @@
         &__header {
             font-size: 18px;
         }
-        &__link {
-            font-size: 13px;
-        }
         &__descr {
             font-size: 15px;
         }
         &__crgt {
             font-size: 14px;
         }
+    }
+    .pageup {
+        right: 10px;
+        bottom: 10px;
     }
 }
 
