@@ -52,34 +52,6 @@
             padding: 0 80px;
             width: 100%;
         }
-        .header {
-            &__menu {
-                li {
-                    &:hover {
-                        padding-bottom: 0;
-                    }
-                    a {
-                        &:hover {
-                            color: var(--text-color);
-                        }
-                    }
-                }
-            }
-            &__account {
-                &:hover {
-                    .header {
-                        &__text {
-                            color: var(--text-color);
-                        }
-                    }
-                    svg {
-                        path {
-                            fill: var(--text-color);
-                        }
-                    }
-                }
-            }
-        }
     }
     .head {
         &_fz88 {
@@ -130,11 +102,6 @@
         }
         &__right {
             column-gap: 70px;
-        }
-        &__link {
-            &:hover {
-                color: var(--text-color);
-            }
         }
     }
 }
